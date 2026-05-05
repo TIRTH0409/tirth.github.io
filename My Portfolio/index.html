@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tirth Patel — UI/UX Designer & UX Researcher</title>
+<meta name="description" content="UI/UX Designer & UX Researcher with 1.5+ years of experience across fintech, healthcare, and ERP systems." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body data-theme="light">
+
+<!-- Spotlight + noise -->
+<div class="spotlight" id="spotlight"></div>
+<div class="noise"></div>
+
+<!-- Custom cursor (desktop only) -->
+<div class="cursor-ring" id="cursor-ring"></div>
+<div class="cursor-dot" id="cursor-dot"></div>
+
+<!-- ===== NAV ===== -->
+<nav class="nav" id="main-nav">
+  <a href="#top" class="nav-mark">Tirth<span style="color:var(--accent)">.</span></a>
+  <div class="nav-links">
+    <a href="#about" data-cursor="hover">About</a>
+    <a href="#experience" data-cursor="hover">Experience</a>
+    <a href="#skills" data-cursor="hover">Skills</a>
+    <a href="#education" data-cursor="hover">Education</a>
+    <a href="#contact" data-cursor="hover">Contact</a>
+  </div>
+  <div class="nav-time">
+    <span class="dot"></span>
+    <span id="local-time">— Vadodara, IN</span>
+  </div>
+  <button class="nav-theme" id="nav-theme-toggle" aria-label="Toggle theme" data-cursor="hover">
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="4"/>
+      <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+    </svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+  </button>
+  <button class="nav-burger" id="nav-burger" aria-label="Menu">
+    <span></span><span></span>
+  </button>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top" data-screen-label="01 Hero">
+  <div class="hero-grid-overlay"></div>
+  <div class="hero-blob" id="hero-blob"></div>
+
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-eyebrow">
+        <span class="line"></span>
+        <span class="mono">Portfolio · 2026 / v.07 — available for work</span>
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm<br />
+        <em>Tirth Patel</em>.
+      </h1>
+      <div class="hero-roles">
+        <span>UI/UX Designer</span>
+        <span class="dot-sep">●</span>
+        <span>UX Researcher</span>
+      </div>
+      <p class="hero-sub">
+        UX Designer with <strong>1.5+ years</strong> designing web and mobile products across <em>fintech</em>, <em>healthcare</em>, and <em>ERP</em> systems.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary" data-cursor="hover">
+          Let's work together
+          <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M7 17 17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="mailto:tirthkpatel369@gmail.com" class="btn btn-ghost" data-cursor="hover">
+          tirthkpatel369@gmail.com
+        </a>
+      </div>
+      <div class="hero-meta">
+        <div><span class="mono num">(01)</span><span>Vadodara, Gujarat</span></div>
+        <div><span class="mono num">(02)</span><span>1.5+ yrs experience</span></div>
+        <div><span class="mono num">(03)</span><span>Fintech · Healthcare · ERP</span></div>
+      </div>
+    </div>
+
+    <div class="hero-portrait">
+      <div class="portrait-bg"></div>
+      <div class="portrait-dots"></div>
+      <div class="portrait-wave"></div>
+      <img src="assets/tirth-portrait.png" alt="Tirth Patel" class="portrait-img" />
+      <div class="portrait-tag"><span class="rec"></span> Available for opportunities</div>
+      <div class="portrait-corner tl"></div>
+      <div class="portrait-corner br"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MARQUEE ===== -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>UI/UX Design <span class="star">✦</span> User Research <span class="star">✦</span> Design Systems <span class="star">✦</span> ERP Dashboards <span class="star">✦</span> Mobile Apps <span class="star">✦</span> Prototyping <span class="star">✦</span> Usability Testing <span class="star">✦</span></span>
+    <span>UI/UX Design <span class="star">✦</span> User Research <span class="star">✦</span> Design Systems <span class="star">✦</span> ERP Dashboards <span class="star">✦</span> Mobile Apps <span class="star">✦</span> Prototyping <span class="star">✦</span> Usability Testing <span class="star">✦</span></span>
+  </div>
+</div>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="container" data-screen-label="02 About">
+  <header class="section-head">
+    <span class="num">— 02 / About me</span>
+    <h2>Curious by <em>default</em>.</h2>
+    <span class="meta">Designer<br/>Researcher</span>
+  </header>
+
+  <div class="about-grid">
+    <div class="about-bio">
+      <p class="lede">
+        UX Designer with 1.5+ years of experience designing web and mobile products across fintech, healthcare, and ERP systems.
+      </p>
+      <p>
+        Skilled in simplifying complex workflows, designing scalable systems, and improving usability through research-driven design. Experienced in collaborating with product and engineering teams to deliver consistent, production-ready interfaces.
+      </p>
+    </div>
+
+    <div class="about-pillars">
+      <article class="pillar">
+        <span class="pillar-num">01</span>
+        <h4>User-Centric Design</h4>
+        <p>Designing solutions that put users first, simplifying complex workflows and improving usability.</p>
+      </article>
+      <article class="pillar">
+        <span class="pillar-num">02</span>
+        <h4>Cross-Functional Collaboration</h4>
+        <p>Working seamlessly with product and engineering teams to deliver production-ready interfaces.</p>
+      </article>
+      <article class="pillar">
+        <span class="pillar-num">03</span>
+        <h4>Research-Driven</h4>
+        <p>Making informed design decisions backed by user research and usability testing.</p>
+      </article>
+      <article class="pillar">
+        <span class="pillar-num">04</span>
+        <h4>Scalable Systems</h4>
+        <p>Building design systems and responsive layouts that ensure consistency across platforms.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience" class="container" data-screen-label="03 Experience">
+  <header class="section-head">
+    <span class="num">— 03 / Experience</span>
+    <h2>Where I've <em>worked</em>.</h2>
+    <span class="meta">Three roles<br/>2023 — Now</span>
+  </header>
+
+  <div class="exp-list">
+    <article class="exp">
+      <div class="exp-side">
+        <div class="exp-date">Sep 2024 — Present</div>
+        <div class="exp-current"><span class="dot"></span> Current</div>
+      </div>
+      <div class="exp-main">
+        <h3>UI/UX Designer</h3>
+        <div class="exp-org">Park Universal Private Limited <span class="dot-sep">●</span> Ahmedabad</div>
+        <ol class="exp-points">
+          <li>Design user-centric ERP software, web applications, mobile apps, dashboards, and websites from research to high-fidelity interfaces.</li>
+          <li>Create wireframes, user flows, and interactive prototypes for data-heavy and workflow-driven products.</li>
+          <li>Develop responsive UI layouts and scalable design systems to ensure consistency across platforms.</li>
+          <li>Collaborate with developers and stakeholders for smooth design handoff and accurate implementation.</li>
+          <li>Improve usability and optimize user experience through iterative design, testing, and feedback.</li>
+        </ol>
+      </div>
+    </article>
+
+    <article class="exp">
+      <div class="exp-side">
+        <div class="exp-date">Dec 2023 — May 2024</div>
+      </div>
+      <div class="exp-main">
+        <h3>UI/UX Designer &amp; Flutter Developer</h3>
+        <div class="exp-org">Dyulabs Private Limited <span class="dot-sep">●</span> Ahmedabad</div>
+        <ol class="exp-points">
+          <li>Designed and developed an Air Quality Monitoring System mobile application.</li>
+          <li>Worked on UI/UX design and Flutter development for real-time air quality tracking.</li>
+          <li>Created user flows, wireframes, and interactive prototypes.</li>
+          <li>Contributed to both design and front-end implementation.</li>
+        </ol>
+      </div>
+    </article>
+
+    <article class="exp">
+      <div class="exp-side">
+        <div class="exp-date">Mar 2023 — Aug 2023</div>
+      </div>
+      <div class="exp-main">
+        <h3>UI/UX Design Intern</h3>
+        <div class="exp-org">Tata Strive <span class="dot-sep">●</span> Anand</div>
+        <ol class="exp-points">
+          <li>Gained practical experience in UI/UX through live project work.</li>
+          <li>Designed mobile app interfaces, wireframes, and prototypes.</li>
+          <li>Conducted usability testing and improved user flows.</li>
+          <li>Applied UX principles to enhance product usability.</li>
+        </ol>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ===== TOOLS ===== -->
+<section id="tools" class="container" data-screen-label="04 Tools">
+  <header class="section-head">
+    <span class="num">— 04 / Tools &amp; Tech</span>
+    <h2>The <em>toolkit</em>.</h2>
+    <span class="meta">Daily<br/>drivers</span>
+  </header>
+
+  <div class="tools-grid">
+    <div class="tool-cat">
+      <span class="mono cat-label">Design</span>
+      <div class="tool-tags">
+        <span class="tool-tag">Figma</span>
+        <span class="tool-tag">Framer</span>
+        <span class="tool-tag">Adobe XD</span>
+        <span class="tool-tag">Photoshop</span>
+        <span class="tool-tag">Illustrator</span>
+      </div>
+    </div>
+    <div class="tool-cat">
+      <span class="mono cat-label">Development</span>
+      <div class="tool-tags">
+        <span class="tool-tag">HTML</span>
+        <span class="tool-tag">CSS</span>
+        <span class="tool-tag">JavaScript</span>
+        <span class="tool-tag">Flutter</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="container" data-screen-label="05 Skills">
+  <header class="section-head">
+    <span class="num">— 05 / Skills &amp; Expertise</span>
+    <h2>What I <em>do</em>.</h2>
+    <span class="meta">Four areas<br/>End-to-end</span>
+  </header>
+
+  <div class="skills-grid">
+    <article class="skill-card">
+      <div class="skill-card-hd">
+        <span class="mono">01</span>
+        <h4>User Research</h4>
+      </div>
+      <ul>
+        <li>User Research &amp; Usability Testing</li>
+        <li>User Interviews &amp; Surveys</li>
+        <li>Data Analysis &amp; Insights</li>
+      </ul>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-hd">
+        <span class="mono">02</span>
+        <h4>Design Strategy</h4>
+      </div>
+      <ul>
+        <li>User Flows &amp; Information Architecture</li>
+        <li>UX Audits &amp; Usability Improvements</li>
+        <li>Design Systems &amp; UI Consistency</li>
+      </ul>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-hd">
+        <span class="mono">03</span>
+        <h4>Visual Design</h4>
+      </div>
+      <ul>
+        <li>Wireframing &amp; Prototyping</li>
+        <li>Interaction &amp; Visual Design</li>
+        <li>Responsive &amp; Accessible Design</li>
+      </ul>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-hd">
+        <span class="mono">04</span>
+        <h4>Specialization</h4>
+      </div>
+      <ul>
+        <li>ERP Systems &amp; Dashboard Design</li>
+        <li>Web &amp; Mobile App Design</li>
+        <li>Design Handoff &amp; Collaboration</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section id="education" class="container" data-screen-label="06 Education">
+  <header class="section-head">
+    <span class="num">— 06 / Education</span>
+    <h2>Where I <em>studied</em>.</h2>
+    <span class="meta">Sardar Patel<br/>University</span>
+  </header>
+
+  <div class="edu-list">
+    <article class="edu">
+      <div class="edu-year">2022 — 2024</div>
+      <div class="edu-main">
+        <h4>M.Sc. in <em>Information Technology</em></h4>
+        <div class="edu-org">Shri Alpesh N. Patel PG Institute of Science &amp; Research, Anand</div>
+        <div class="edu-uni">Sardar Patel University</div>
+      </div>
+      <span class="edu-badge">Postgraduate</span>
+    </article>
+    <article class="edu">
+      <div class="edu-year">2019 — 2022</div>
+      <div class="edu-main">
+        <h4>B.Sc. in <em>Computer Science</em></h4>
+        <div class="edu-org">M.B. Patel Science College, Anand</div>
+        <div class="edu-uni">Sardar Patel University</div>
+      </div>
+      <span class="edu-badge">Undergraduate</span>
+    </article>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="contact" data-screen-label="07 Contact">
+  <span class="eyebrow mono">— 07 / Get in touch</span>
+  <h2>Let's build something<br /><em>great</em> together.</h2>
+  <a class="email-link" href="mailto:tirthkpatel369@gmail.com" data-cursor="hover">
+    tirthkpatel369@gmail.com
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <path d="M7 17 17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+
+  <div class="contact-info">
+    <span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+      </svg>
+      Vadodara, Gujarat
+    </span>
+    <span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2" stroke-linecap="round"/>
+      </svg>
+      <span id="local-time-2">— IST</span>
+    </span>
+    <span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Open to opportunities
+    </span>
+  </div>
+
+  <div class="socials">
+    <a class="social-btn" href="mailto:tirthkpatel369@gmail.com" data-cursor="hover" aria-label="Email">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="5" width="18" height="14" rx="2"/>
+        <path d="m3 7 9 6 9-6"/>
+      </svg>
+    </a>
+    <a class="social-btn" href="https://www.linkedin.com/" target="_blank" rel="noopener" data-cursor="hover" aria-label="LinkedIn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56z"/>
+      </svg>
+    </a>
+    <a class="social-btn" href="https://www.behance.net/" target="_blank" rel="noopener" data-cursor="hover" aria-label="Behance">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M7.799 5.698c.589 0 1.12.051 1.606.156.484.106.9.273 1.252.507.353.235.628.547.823.938.196.391.293.876.293 1.454 0 .625-.142 1.146-.426 1.564-.284.418-.704.762-1.26 1.026.762.219 1.331.605 1.706 1.158.376.554.563 1.221.563 2.005 0 .628-.121 1.176-.366 1.638-.245.464-.578.842-.998 1.137a4.297 4.297 0 0 1-1.454.658c-.546.142-1.107.213-1.685.213H1V5.698h6.799zm-.395 4.273c.485 0 .882-.115 1.193-.345.311-.231.466-.604.466-1.121 0-.288-.052-.522-.155-.704a1.064 1.064 0 0 0-.42-.428 1.766 1.766 0 0 0-.6-.211 3.851 3.851 0 0 0-.708-.061H4.067v2.87h3.337zm.181 4.482a3.6 3.6 0 0 0 .771-.078c.243-.052.456-.139.641-.262a1.32 1.32 0 0 0 .446-.504c.111-.21.166-.481.166-.812 0-.652-.183-1.12-.55-1.402-.367-.282-.851-.422-1.451-.422H4.067v3.48h3.518zm9.342 0c.418.406.969.612 1.654.612.491 0 .914-.123 1.268-.372.354-.247.583-.51.681-.787h2.467c-.394 1.219-.999 2.091-1.815 2.616-.815.526-1.802.788-2.961.788-.787 0-1.498-.121-2.13-.379a4.43 4.43 0 0 1-1.611-1.083 4.882 4.882 0 0 1-1.014-1.687 6.355 6.355 0 0 1-.355-2.171c0-.755.121-1.453.366-2.121a4.949 4.949 0 0 1 1.05-1.704 4.937 4.937 0 0 1 1.6-1.119c.621-.27 1.31-.405 2.069-.405.853 0 1.594.166 2.234.495.636.328 1.157.768 1.564 1.317.408.548.701 1.171.876 1.871.181.701.244 1.426.181 2.179h-7.157c0 .785.272 1.553.69 1.96zm2.939-5.269c-.328-.36-.871-.546-1.522-.546-.426 0-.781.072-1.061.218a2.097 2.097 0 0 0-.687.541 2.044 2.044 0 0 0-.371.706 3.039 3.039 0 0 0-.131.66h4.443c-.064-.691-.296-1.225-.671-1.579zM15.685 6.972h5.547V5.62h-5.547v1.352z"/>
+      </svg>
+    </a>
+    <a class="social-btn" href="https://tirth.figma.site/" target="_blank" rel="noopener" data-cursor="hover" aria-label="Figma">
+      <svg width="14" height="20" viewBox="0 0 38 57" fill="none" aria-hidden="true">
+        <path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1ABCFE"/>
+        <path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0ACF83"/>
+        <path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z" fill="#FF7262"/>
+        <path d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#F24E1E"/>
+        <path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z" fill="#A259FF"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  <span>© 2026 Tirth Patel — All rights reserved</span>
+  <span>DESIGNED &amp; BUILT WITH ● TIRTH PATEL</span>
+  <span>v.07 / Last updated · May 2026</span>
+</footer>
+
+<!-- Floating theme toggle -->
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" data-cursor="hover">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+    <circle cx="12" cy="12" r="4"/>
+    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" stroke-linecap="round"/>
+  </svg>
+</button>
+
+<!-- React for tweaks panel -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+
+<script src="app.js"></script>
+<script type="text/babel" src="tweaks-app.jsx"></script>
+</body>
+</html>
