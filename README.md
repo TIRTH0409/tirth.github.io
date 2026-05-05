@@ -27,7 +27,3 @@ Focused on creating user-centered, scalable, and research-driven design solution
 - Custom cursor (desktop)
 - Clean UI with strong typography
 - Mobile-friendly layout
-
----
-
-## 📁 Project Structure
